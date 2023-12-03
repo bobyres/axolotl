@@ -9,7 +9,7 @@ def inference():
     data = request.get_json()
     query = data.get('query', '')
     history = data.get('history', [])
-    temperature = data.get('temperature', 0.7)  # Exemple de paramètre, ajustez selon vos besoins
+    temperature = float(data.get('temperature', 0.7))  # Exemple de paramètre, ajustez selon vos besoins
 
     response, updated_history = chat(query, history=history, temperature=temperature)
 
