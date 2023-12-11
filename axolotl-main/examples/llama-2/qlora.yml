@@ -29,7 +29,7 @@ lora_target_modules:
 lora_target_linear: true
 lora_fan_in_fan_out:
 
-wandb_project: "vigogne-CR"
+wandb_project: "vigogne-CRV2"
 wandb_entity:
 wandb_watch:
 wandb_run_id:
