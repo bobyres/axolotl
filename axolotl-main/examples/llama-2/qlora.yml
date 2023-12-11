@@ -9,7 +9,7 @@ load_in_4bit: true
 strict: false
 
 datasets:
-  - path: bobyres/CR
+  - path: bobyres/CR_V2
     type: alpaca 
 
 dataset_prepared_path: last_run_prepared
