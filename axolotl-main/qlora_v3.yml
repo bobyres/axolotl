@@ -29,15 +29,15 @@ lora_target_modules:
 lora_target_linear: true
 lora_fan_in_fan_out:
 
-wandb_project: "vigogne-CRV2"
+wandb_project: "vigogne-CRV3"
 wandb_entity:
 wandb_watch:
 wandb_run_id:
 wandb_log_model: "checkpoint"
 
 gradient_accumulation_steps: 1
-micro_batch_size: 2
-num_epochs: 4
+micro_batch_size: 8
+num_epochs: 2
 optimizer: paged_adamw_32bit
 lr_scheduler: cosine
 learning_rate: 0.0002
