@@ -1,6 +1,7 @@
 from typing import Dict, List, Optional
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer, GenerationConfig, TextStreamer
+import os
 
 model_name_or_path = "bobyres/Vigogne7b_finetune"
 # model_name_or_path = "bofenghuang/vigogne-2-7b-chat"
