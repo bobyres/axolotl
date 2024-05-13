@@ -35,11 +35,11 @@ lora_target_modules:
   - k_proj
   - o_proj
 
-wandb_project: Finetune_Mistral_LabelisationV01
+wandb_project: "Finetune_Mistral_LabelisationV01"
 wandb_entity:
 wandb_watch:
 wandb_run_id:
-wandb_log_model:
+wandb_log_model: "checkpoint"
 
 gradient_accumulation_steps: 1
 micro_batch_size: 1
