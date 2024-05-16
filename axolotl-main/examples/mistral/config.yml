@@ -15,18 +15,18 @@ val_set_size: 0.05
 output_dir: ./out
 
 sequence_len: 8192
-sample_packing: true
+sample_packing: false
 pad_to_sequence_len: true
 
-wandb_project:"Finetune_Labelll"
+wandb_project: "Finetune_Labelll"
 wandb_entity:
 wandb_watch:
 wandb_run_id:
 wandb_log_model:
 
-gradient_accumulation_steps: 4
-micro_batch_size: 2
-num_epochs: 4
+gradient_accumulation_steps: 1
+micro_batch_size: 1
+num_epochs: 3
 optimizer: adamw_bnb_8bit
 lr_scheduler: cosine
 learning_rate: 0.000005
