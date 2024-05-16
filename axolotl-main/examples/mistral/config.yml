@@ -8,7 +8,7 @@ load_in_4bit: false
 strict: false
 
 datasets:
-  - path: mhenrichsen/alpaca_2k_test
+  - path: bobyres/LabelV01
     type: alpaca
 dataset_prepared_path:
 val_set_size: 0.05
@@ -18,7 +18,7 @@ sequence_len: 8192
 sample_packing: true
 pad_to_sequence_len: true
 
-wandb_project:
+wandb_project:"Finetune_Labelll"
 wandb_entity:
 wandb_watch:
 wandb_run_id:
