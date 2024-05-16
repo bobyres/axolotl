@@ -1,4 +1,5 @@
 base_model: bofenghuang/vigogne-2-7b-instruct
+base_model_config: bofenghuang/vigogne-2-7b-instruct
 model_type: MistralForCausalLM
 tokenizer_type: LlamaTokenizer
 is_mistral_derived_model: true
