@@ -1,6 +1,6 @@
 base_model: bofenghuang/vigogne-2-7b-instruct
 base_model_config: bofenghuang/vigogne-2-7b-instruct
-model_type: MistralForCausalLM
+model_type: LlamaForCausalLM
 tokenizer_type: LlamaTokenizer
 is_llama_derived_model: true
 
